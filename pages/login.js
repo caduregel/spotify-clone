@@ -4,8 +4,8 @@ function login({ providers = {} }) {
     return (
         <div className="flex flex-col items-center bg-black min-h-screen w-full justify-center">
             <div  className="xtext-white p-10">
-                <h2>Due to the way the spotift API works, spotify needs to be running </h2>
-                <h2>on any device or browser in order to play songs</h2>
+                <h2 className="text-white">Due to the way the spotift API works, spotify needs to be running </h2>
+                <h2 className="text-white">on any device or browser in order to play songs</h2>
             </div>
 
             <img className="w-52 mb-5" src="https://links.papareact.com/9xl" alt=""></img>
